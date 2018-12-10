@@ -1,2 +1,2 @@
 # ionic3-native
-the project for native of ionic3
+the project for plugin of ionic3
