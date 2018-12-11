@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Badge</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h2>角标设置</h2>
+  <p>
+    说明：设置APP图标的角标
+  </p>
+  <p>
+    角标数目为：{{badgeNum}}
+  </p>
+  <p>
+    <button ion-button full color="light" tappable (click)="clearBadge()">角标清零</button>
+  </p>
+  <p>
+    <button ion-button full tappable (click)="setBadge()">角标设为10</button>
+  </p>
+  <p>
+    <button ion-button full color="secondary" tappable (click)="increaseBadge()">角标数目+1</button>
+  </p>
+  <p>
+    <button ion-button full color="danger" tappable (click)="decreaseBadge()">角标数目-1</button>
+  </p>
+  <p>
+    <button ion-button full color="dark" tappable (click)="getBadge()">获取角标数目</button>
+  </p>
+
+</ion-content>
