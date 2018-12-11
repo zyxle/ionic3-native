@@ -5,6 +5,7 @@ import { UtilService } from "../../providers/UtilService";
 import { HomePage } from '../home/home';
 
 import { ThreeDeeTouchPage } from '../plugin/3dTouch/3dTouch';
+import { AppVersionPage } from '../plugin/appVersion/appVersion';
 
 /**
  * Generated class for the NativePage page.
@@ -26,22 +27,22 @@ export class NativePage {
   initData(){
     this.listDatas=[
       {header:"通用插件",items:[
-        {avatar:"assets/imgs/avatar-ts-squeeze.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"all",toPage:HomePage},
-        {avatar:"assets/imgs/avatar-ts-squeeze.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"all",toPage:HomePage},
-        {avatar:"assets/imgs/avatar-ts-squeeze.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"all",toPage:HomePage},
-        {avatar:"assets/imgs/avatar-ts-squeeze.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"all",toPage:HomePage}
+        {avatar:"assets/imgs/app-version.png",title:"App Version",detail:"应用信息",version:"V0.1.9",platform:"all",toPage:AppVersionPage},
+        {avatar:"assets/imgs/avatar-ts-barbie.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"all",toPage:HomePage},
+        {avatar:"assets/imgs/avatar-ts-bopeep.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"all",toPage:HomePage},
+        {avatar:"assets/imgs/avatar-ts-bullseye.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"all",toPage:HomePage}
       ]},
       {header:"仅用于iOS设备",items:[
         {avatar:"assets/imgs/3d-touch.png",title:"3D Touch",detail:"用于iOS设备的插件",version:"V1.3.5",platform:"ios",toPage:ThreeDeeTouchPage},
-        {avatar:"assets/imgs/avatar-ts-squeeze.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"ios",toPage:HomePage},
-        {avatar:"assets/imgs/avatar-ts-squeeze.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"ios",toPage:HomePage},
-        {avatar:"assets/imgs/avatar-ts-squeeze.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"ios",toPage:HomePage}
+        {avatar:"assets/imgs/avatar-ts-buzz.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"ios",toPage:HomePage},
+        {avatar:"assets/imgs/avatar-ts-hamm.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"ios",toPage:HomePage},
+        {avatar:"assets/imgs/avatar-ts-jessie.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"ios",toPage:HomePage}
       ]},
       {header:"仅用于Android设备",items:[
-        {avatar:"assets/imgs/avatar-ts-squeeze.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"android",toPage:HomePage},
-        {avatar:"assets/imgs/avatar-ts-squeeze.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"android",toPage:HomePage},
-        {avatar:"assets/imgs/avatar-ts-squeeze.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"android",toPage:HomePage},
-        {avatar:"assets/imgs/avatar-ts-squeeze.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"android",toPage:HomePage}
+        {avatar:"assets/imgs/avatar-ts-rex.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"android",toPage:HomePage},
+        {avatar:"assets/imgs/avatar-ts-sarge.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"android",toPage:HomePage},
+        {avatar:"assets/imgs/avatar-ts-slinky.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"android",toPage:HomePage},
+        {avatar:"assets/imgs/avatar-ts-woody.png",title:"测试1",detail:"详细内容1",version:"V1.0.1",platform:"android",toPage:HomePage}
       ]}
     ];
   }

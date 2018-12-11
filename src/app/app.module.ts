@@ -15,7 +15,6 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { AppVersion } from '@ionic-native/app-version'
 import { UtilService } from '../providers/UtilService';
-import { ThreeDeeTouch } from '@ionic-native/three-dee-touch';
 
 @NgModule({
   declarations: [
@@ -52,8 +51,7 @@ import { ThreeDeeTouch } from '@ionic-native/three-dee-touch';
     SplashScreen,
     AppVersion,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    UtilService,
-    ThreeDeeTouch
+    UtilService
   ]
 })
 export class AppModule {}

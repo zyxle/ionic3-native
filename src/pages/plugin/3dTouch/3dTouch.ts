@@ -7,12 +7,12 @@ import { UtilService } from "../../../providers/UtilService";
 
 @Component({
   selector: 'page-3dTouch',
-  templateUrl: '3dTouch.html'
+  templateUrl: '3dTouch.html',
+  providers: [ ThreeDeeTouch ]
 })
 export class ThreeDeeTouchPage {
 
   constructor(public navCtrl: NavController, public threeDeeTouch: ThreeDeeTouch, public utilService: UtilService) {
-
 
   }
   ionViewDidLoad() {
