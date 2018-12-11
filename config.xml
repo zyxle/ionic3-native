@@ -3,7 +3,7 @@
     <name>Ionic3</name>
     <description>An awesome Ionic3 project.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">DHC Developer Team</author>
-    <content src="index.html" />
+    <content original-src="index.html" src="http://192.168.2.20:8100" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
@@ -80,6 +80,7 @@
     <engine name="android" spec="^6.2.3" />
     <engine name="browser" spec="^4.1.0" />
     <engine name="ios" spec="^4.4.0" />
+    <plugin name="cordova-plugin-3dtouch" spec="^1.3.5" />
     <plugin name="cordova-plugin-app-version" spec="^0.1.9" />
     <plugin name="cordova-plugin-device" spec="^2.0.2" />
     <plugin name="cordova-plugin-ionic-keyboard" spec="^2.1.3" />
@@ -87,5 +88,4 @@
     <plugin name="cordova-plugin-splashscreen" spec="^5.0.2" />
     <plugin name="cordova-plugin-statusbar" spec="^2.4.2" />
     <plugin name="cordova-plugin-whitelist" spec="^1.3.3" />
-    <plugin name="cordova-plugin-3dtouch" spec="^1.3.5" />
 </widget>
