@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { LoadingController, ToastController,AlertController } from "ionic-angular";
+import { LoadingController, ToastController, AlertController } from "ionic-angular";
 
 /*
   Generated class for the UtilServiceProvider provider.
@@ -10,11 +10,11 @@ import { LoadingController, ToastController,AlertController } from "ionic-angula
 @Injectable()
 export class UtilService {
 
-  constructor(public loadingCtrl: LoadingController, public toastCtrl: ToastController,public alertCtrl:AlertController) {
+  constructor(public loadingCtrl: LoadingController, public toastCtrl: ToastController, public alertCtrl: AlertController) {
     console.log('Hello UtilServiceProvider Provider');
   }
 
-  showAlert(title,subTitle){
+  showAlert(title, subTitle) {
     let alert = this.alertCtrl.create({
       title: title,
       subTitle: subTitle,
@@ -23,17 +23,32 @@ export class UtilService {
     alert.present();
   }
 
-  showAlertHandler(title,subTitle,handler){
+  showAlertHandler(title, subTitle, handler) {
     let alert = this.alertCtrl.create({
       title: title,
       subTitle: subTitle,
       buttons: [{
-        text:'确定',
-        handler:()=>{
+        text: '确定',
+        handler: () => {
           handler
-        }}]
+        }
+      }]
     });
     alert.present();
   }
+  //生成从minNum到maxNum的随机数
+  // randomNum(minNum, maxNum) {
+  //   switch (arguments.length) {
+  //     case 1:
+  //       return parseInt(Math.random() * minNum + 1, 10);
+  //       break;
+  //     case 2:
+  //       return parseInt(Math.random() * (maxNum - minNum + 1) + minNum, 10);
+  //       break;
+  //     default:
+  //       return 0;
+  //       break;
+  //   }
+  // }
 
 }
