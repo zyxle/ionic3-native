@@ -12,6 +12,6 @@ export class HomePage {
 
   }
   ionViewDidLoad() {
-    // alert('name'); 
+    // alert('name');
   }
 }

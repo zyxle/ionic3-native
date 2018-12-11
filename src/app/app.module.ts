@@ -30,7 +30,11 @@ import { ThreeDeeTouch } from '@ionic-native/three-dee-touch';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp, {
+      tabsHideOnSubPages: 'true',
+      // mode: 'ios',
+      backButtonText: '返回'
+    })
   ],
   bootstrap: [IonicApp],
   entryComponents: [
