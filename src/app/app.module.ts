@@ -15,6 +15,7 @@ import { UtilService } from '../providers/UtilService';
 import { AppVersionPage } from '../pages/plugin/appVersion/appVersion';
 import { BadgePage } from '../pages/plugin/badge/badge';
 import { BarcodeScannerPage } from '../pages/plugin/barcodeScanner/barcodeScanner';
+import { SimPage } from '../pages/plugin/sim/sim';
 import { VibrationPage } from '../pages/plugin/vibration/vibration';
 
 import { ThreeDeeTouchPage } from '../pages/plugin/3dTouch/3dTouch';
@@ -33,6 +34,7 @@ import { TouchIDPage } from '../pages/plugin/touchId/touchId';
     BadgePage,
     BarcodeScannerPage,
     TouchIDPage,
+    SimPage,
     VibrationPage
   ],
   imports: [
@@ -56,6 +58,7 @@ import { TouchIDPage } from '../pages/plugin/touchId/touchId';
     BadgePage,
     BarcodeScannerPage,
     TouchIDPage,
+    SimPage,
     VibrationPage
   ],
   providers: [

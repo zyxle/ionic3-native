@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Sim</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h2>获取Sim卡信息</h2>
+  <p>
+    插件说明：从Sim卡获取信息，如运营商名称、mcc、mnc和国家代码以及其他系统相关信息。
+  </p>
+  <p>
+    适用平台：Android、iOS、Windows、Windows Phone。
+  </p>
+  <p>
+    Sim卡信息：{{simInfo}}
+  </p>
+  <p>
+    是否获取权限：{{hasPermission}}
+  </p>
+  <p>
+    请求权限结果：{{requestPermission}}
+  </p>
+  <p>
+    <button ion-button full tappable (click)="getSimInfo()">获取Sim卡信息</button>
+  </p>
+  <p>
+    <button ion-button full tappable (click)="hasReadPermission()">查询权限(只适用于Android)</button>
+  </p>
+  <p>
+    <button ion-button full tappable (click)="requestReadPermission()">获取权限(只适用于Android)</button>
+  </p>
+
+</ion-content>
