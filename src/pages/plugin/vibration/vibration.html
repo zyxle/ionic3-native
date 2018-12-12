@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Vibration</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h2>角标设置</h2>
+  <p>
+    插件说明：使设备振动。
+  </p>
+  <p>
+    适用平台：Android、iOS、Windows。
+  </p>
+  <p>
+    角标数目为：{{VibrationNum}}
+  </p>
+  <p>
+    <button ion-button full tappable (click)="vibrationDevice()">设备振动</button>
+  </p>
+  <p>
+    <button ion-button full tappable (click)="vibrationAndPauseDevice()">自定义振动(不适用iOS)</button>
+  </p>
+  <p>
+    <button ion-button full tappable (click)="stopVibration()">停止振动(不适用iOS)</button>
+  </p>
+
+</ion-content>
