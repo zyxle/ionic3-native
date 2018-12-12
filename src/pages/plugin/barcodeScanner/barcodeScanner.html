@@ -1,0 +1,32 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Barcode Scanner</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <h2>扫描二维码</h2>
+  <p>
+    二维码内容：{{scanData}}
+  </p>
+  <p>
+    二维码错误：{{scanError}}
+  </p>
+  <p>
+    <button ion-button full tappable (click)="scan()">扫一扫</button>
+  </p>
+  <p>
+    <button ion-button full tappable (click)="preferFrontCamera()">前置摄像头扫码</button>
+  </p>
+  <p>
+    <button ion-button full tappable (click)="showFlipCameraButton()">显示翻转按钮扫码</button>
+  </p>
+  <p>
+    <button ion-button full tappable (click)="showTorchButton()">显示手电筒按钮扫码</button>
+  </p>
+
+</ion-content>

@@ -14,6 +14,7 @@ import { UtilService } from '../providers/UtilService';
 
 import { AppVersionPage } from '../pages/plugin/appVersion/appVersion';
 import { BadgePage } from '../pages/plugin/badge/badge';
+import { BarcodeScannerPage } from '../pages/plugin/barcodeScanner/barcodeScanner';
 
 import { ThreeDeeTouchPage } from '../pages/plugin/3dTouch/3dTouch';
 
@@ -27,7 +28,8 @@ import { ThreeDeeTouchPage } from '../pages/plugin/3dTouch/3dTouch';
     NativePage,
     ThreeDeeTouchPage,
     AppVersionPage,
-    BadgePage
+    BadgePage,
+    BarcodeScannerPage
   ],
   imports: [
     BrowserModule,
@@ -47,7 +49,8 @@ import { ThreeDeeTouchPage } from '../pages/plugin/3dTouch/3dTouch';
     NativePage,
     ThreeDeeTouchPage,
     AppVersionPage,
-    BadgePage
+    BadgePage,
+    BarcodeScannerPage
   ],
   providers: [
     StatusBar,

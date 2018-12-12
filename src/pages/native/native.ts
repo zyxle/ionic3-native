@@ -6,6 +6,7 @@ import { HomePage } from '../home/home';
 
 import { AppVersionPage } from '../plugin/appVersion/appVersion';
 import { BadgePage } from '../plugin/badge/badge';
+import { BarcodeScannerPage } from '../plugin/barcodeScanner/barcodeScanner';
 
 import { ThreeDeeTouchPage } from '../plugin/3dTouch/3dTouch';
 
@@ -31,7 +32,7 @@ export class NativePage {
       header: "通用插件", items: [
         { avatar: "", title: "App Version", detail: "平台：Android、iOS、Windows", version: "V0.1.9", platform: "all", toPage: AppVersionPage },
         { avatar: "", title: "Badge", detail: "平台：Android、Browser、iOS、Windows", version: "V0.8.8", platform: "all", toPage: BadgePage },
-        { avatar: "", title: "测试1", detail: "详细内容1", version: "V1.0.1", platform: "all", toPage: HomePage },
+        { avatar: "", title: "Barcode Scanner", detail: "平台：Android、BlackBerry 10、Browser、iOS、Windows", version: "V6.0.8", platform: "all", toPage: BarcodeScannerPage },
         { avatar: "", title: "测试1", detail: "详细内容1", version: "V1.0.1", platform: "all", toPage: HomePage }
       ]
     }, {
