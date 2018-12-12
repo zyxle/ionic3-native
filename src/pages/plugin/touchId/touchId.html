@@ -1,0 +1,38 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Touch ID</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <h2>测试 Touch ID 功能</h2>
+  <p>
+    插件说明：使用TouchID传感器扫描用户的指纹。
+  </p>
+  <p>
+    适用平台：iOS。
+  </p>
+  <p>
+    设备适用情况：{{isAvailable}}
+  </p>
+  <p>
+    是否有变动：{{didChange}}
+  </p>
+  <p>
+    验证结果：{{verifyState}}
+  </p>
+  <p>
+    <button ion-button full tappable (click)="verify()">验证 Touch ID</button>
+  </p>
+  <p>
+    <button ion-button full tappable (click)="verifyPassword()">验证 Touch ID 带反馈</button>
+  </p>
+  <p>
+    <button ion-button full tappable (click)="verifyPasswordAndLabel()">验证 Touch ID 带反馈和输入</button>
+  </p>
+
+</ion-content>

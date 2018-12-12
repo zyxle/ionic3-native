@@ -17,6 +17,7 @@ import { BadgePage } from '../pages/plugin/badge/badge';
 import { BarcodeScannerPage } from '../pages/plugin/barcodeScanner/barcodeScanner';
 
 import { ThreeDeeTouchPage } from '../pages/plugin/3dTouch/3dTouch';
+import { TouchIDPage } from '../pages/plugin/touchId/touchId';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { ThreeDeeTouchPage } from '../pages/plugin/3dTouch/3dTouch';
     ThreeDeeTouchPage,
     AppVersionPage,
     BadgePage,
-    BarcodeScannerPage
+    BarcodeScannerPage,
+    TouchIDPage
   ],
   imports: [
     BrowserModule,
@@ -50,7 +52,8 @@ import { ThreeDeeTouchPage } from '../pages/plugin/3dTouch/3dTouch';
     ThreeDeeTouchPage,
     AppVersionPage,
     BadgePage,
-    BarcodeScannerPage
+    BarcodeScannerPage,
+    TouchIDPage
   ],
   providers: [
     StatusBar,

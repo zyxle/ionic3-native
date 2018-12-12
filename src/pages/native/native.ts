@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, Platform } from 'ionic-angular';
-
 import { UtilService } from "../../providers/UtilService";
 import { HomePage } from '../home/home';
 
@@ -9,6 +8,7 @@ import { BadgePage } from '../plugin/badge/badge';
 import { BarcodeScannerPage } from '../plugin/barcodeScanner/barcodeScanner';
 
 import { ThreeDeeTouchPage } from '../plugin/3dTouch/3dTouch';
+import { TouchIDPage } from '../plugin/touchId/touchId';
 
 /**
  * Generated class for the NativePage page.
@@ -30,15 +30,15 @@ export class NativePage {
   initData() {
     this.listDatas = [{
       header: "通用插件", items: [
-        { avatar: "", title: "App Version", detail: "平台：Android、iOS、Windows", version: "V0.1.9", platform: "all", toPage: AppVersionPage },
-        { avatar: "", title: "Badge", detail: "平台：Android、Browser、iOS、Windows", version: "V0.8.8", platform: "all", toPage: BadgePage },
-        { avatar: "", title: "Barcode Scanner", detail: "平台：Android、BlackBerry 10、Browser、iOS、Windows", version: "V6.0.8", platform: "all", toPage: BarcodeScannerPage },
+        { avatar: "", title: "App Version", detail: "从APP配置中读取版本信息", version: "V0.1.9", platform: "all", toPage: AppVersionPage },
+        { avatar: "", title: "Badge", detail: "应用程序能够通知用户有未读信息", version: "V0.8.8", platform: "all", toPage: BadgePage },
+        { avatar: "", title: "Barcode Scanner", detail: "使用相机自动扫描条形码、二维码信息", version: "V6.0.8", platform: "all", toPage: BarcodeScannerPage },
         { avatar: "", title: "测试1", detail: "详细内容1", version: "V1.0.1", platform: "all", toPage: HomePage }
       ]
     }, {
       header: "仅用于iOS设备", items: [
-        { avatar: "", title: "3D Touch", detail: "只适用iOS设备", version: "V1.3.5", platform: "ios", toPage: ThreeDeeTouchPage },
-        { avatar: "", title: "测试1", detail: "只适用iOS设备", version: "V1.0.1", platform: "ios", toPage: HomePage },
+        { avatar: "", title: "3D Touch", detail: "为Cordova应用程序添加3DTouch功能", version: "V1.3.5", platform: "ios", toPage: ThreeDeeTouchPage },
+        { avatar: "", title: "Touch ID", detail: "使用TouchID传感器扫描用户的指纹", version: "V3.4.0", platform: "ios", toPage: TouchIDPage },
         { avatar: "", title: "测试1", detail: "只适用iOS设备", version: "V1.0.1", platform: "ios", toPage: HomePage },
         { avatar: "", title: "测试1", detail: "只适用iOS设备", version: "V1.0.1", platform: "ios", toPage: HomePage }
       ]
