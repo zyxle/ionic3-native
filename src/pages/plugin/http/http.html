@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Http</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <h2>HTTP请求</h2>
+  <p>
+    插件说明：用于与HTTP服务器通信的Cordova/Phonegap插件。支持iOS和Android。
+  </p>
+  <p>
+    适用平台：Android、iOS。
+  </p>
+  <p>
+    请求内容：{{httpInfo}}
+  </p>
+  <p>
+    <button ion-button full tappable (click)="get()">GET请求</button>
+  </p>
+  <p>
+    <button ion-button full tappable (click)="post()">POST请求</button>
+  </p>
+
+</ion-content>

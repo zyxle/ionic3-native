@@ -6,6 +6,7 @@ import { HomePage } from '../home/home';
 import { AppVersionPage } from '../plugin/appVersion/appVersion';
 import { BadgePage } from '../plugin/badge/badge';
 import { BarcodeScannerPage } from '../plugin/barcodeScanner/barcodeScanner';
+import { HttpPage } from '../plugin/http/http';
 import { SimPage } from '../plugin/sim/sim';
 import { VibrationPage } from '../plugin/vibration/vibration';
 
@@ -35,6 +36,7 @@ export class NativePage {
         { avatar: "", title: "App Version", detail: "从APP配置中读取版本信息", version: "V0.1.9", platform: "all", toPage: AppVersionPage },
         { avatar: "", title: "Badge", detail: "应用程序能够通知用户有未读信息", version: "V0.8.8", platform: "all", toPage: BadgePage },
         { avatar: "", title: "Barcode Scanner", detail: "使用相机自动扫描条形码、二维码信息", version: "V6.0.8", platform: "all", toPage: BarcodeScannerPage },
+        { avatar: "", title: "HTTP", detail: "用于与HTTP服务器通信的插件", version: "V2.0.2", platform: "all", toPage: HttpPage },
         { avatar: "", title: "Sim", detail: "从Sim卡获取信息，如运营商名称、mcc、mnc等", version: "V1.3.3", platform: "all", toPage: SimPage },
         { avatar: "", title: "Vibration", detail: "使设备振动", version: "V3.1.0", platform: "all", toPage: VibrationPage },
       ]
