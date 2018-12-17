@@ -3,7 +3,7 @@
     <name>Ionic3</name>
     <description>An awesome Ionic3 project.</description>
     <author email="hi@ionicframework" href="http://ionicframework.com/">DHC Developer Team</author>
-    <content original-src="index.html" src="http://192.168.2.20:8100" />
+    <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />

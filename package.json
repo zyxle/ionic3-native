@@ -63,6 +63,7 @@
         "phonegap-plugin-barcodescanner": "^6.0.8",
         "rxjs": "5.5.11",
         "sw-toolbox": "3.6.0",
+        "ts-md5": "^1.2.4",
         "zone.js": "0.8.26"
     },
     "devDependencies": {
